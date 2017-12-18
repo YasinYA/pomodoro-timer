@@ -33,7 +33,7 @@ module.exports = {
                 include: [
                     path.join(__dirname, 'src'),
                 ],
-                loader: 'style-loader!css-loader!sass-loader'
+                loader: 'style-loader!css-loader!postcss-loader!sass-loader'
             }, {
                 test: /\.json$/,
                 loader: 'json-loader'
