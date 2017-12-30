@@ -26,14 +26,15 @@ module.exports = {
                 ],
                 exclude: /node_modules/,
                 query: {
-                    presets: ['es2015', 'react', 'react-hmre']
+                    presets: ['es2015', 'react', 'react-hmre', 'stage-2'],
+                    plugins: ['transform-class-properties']
                 }
             }, {
                 test: /\.scss$/,
                 include: [
                     path.join(__dirname, 'src'),
                 ],
-                loader: 'style-loader!css-loader!sass-loader'
+                loader: 'style-loader!css-loader!postcss-loader!sass-loader'
             }, {
                 test: /\.json$/,
                 loader: 'json-loader'
