@@ -7,7 +7,6 @@ import { incrementBreaktime, decrementBreaktime } from '../actions/break_time_ac
 
 
 const PeriodControls = (props) => {
-    console.log(`props = ${props}`);
     return (
         <div className="increment-controls">
             <WorkTimePeriodControl
