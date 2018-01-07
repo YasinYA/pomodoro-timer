@@ -12,7 +12,7 @@ export default function periodControlReducer (state = {}, action) {
         case DECREMENT_WORK_TIME:
             return {
                 ...state,
-                workTime: state.workTime - state.step
+                workTime: state.workTime > 5 ? state.workTime - state.step : state.workTime
             }
         case INCREMENT_BREAK_TIME:
             return {
@@ -22,9 +22,9 @@ export default function periodControlReducer (state = {}, action) {
         case DECREMENT_BREAK_TIME:
             return {
                 ...state,
-                breakTime: state.breakTime - state.step
+                breakTime: state.breakTime > 5 ? state.breakTime - state.step : state.breakTime
             }
         default:
             return state;
     }
-}
+};
