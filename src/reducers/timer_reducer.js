@@ -28,7 +28,7 @@ export default function timerReducer (state = {}, action) {
         case BREAKTIME:
             return {
                 ...state,
-                tFB: true
+                tFB: action.data
             }
         default:
             return state;

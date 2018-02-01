@@ -15,8 +15,9 @@ export const decrementBreaktime = () => {
     };
 };
 
-export const timeForBreak = () => {
+export const timeForBreak = (data) => {
     return {
-        type: BREAKTIME
+        type: BREAKTIME,
+        data: data
     };
 };

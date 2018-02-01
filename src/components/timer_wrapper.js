@@ -16,7 +16,9 @@ export default class Timer extends React.Component {
                         ?
                         <BreakTimer
                             breakTime={this.props.breakTime}
-                            tBF={this.tFB}
+                            tBF={this.props.tFB}
+                            timeForBreak={this.props.timeForBreak}
+                            stopCountDown={this.props.stopCountDown}
                         />
                         :
                         <WorkTimer
@@ -24,6 +26,7 @@ export default class Timer extends React.Component {
                             countDownStarted={this.props.countDownStarted}
                             countDownStopped={this.props.countDownStopped}
                             countDownReseted={this.props.countDownReseted}
+                            timeForBreak={this.props.timeForBreak}
                         />
                     }
                 </div>

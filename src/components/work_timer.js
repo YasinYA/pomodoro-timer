@@ -66,6 +66,9 @@ export default class WorkTimer extends React.Component {
             } else if (this.workTimeInSeconds === 0) {
                 clearTimeout(this.timer);
                 this.state.timeForBreak();
+                // this return statement prevents calling the updateState function
+                // after this else if block.
+                return true;
             }
 
             this.updateState(minutes, seconds);

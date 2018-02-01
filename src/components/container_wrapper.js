@@ -46,30 +46,30 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        incrementWorktime: (event) => {
+        incrementWorktime: () => {
             dispatch(incrementWorktime());
         },
-        decrementWorktime: (event) => {
+        decrementWorktime: () => {
             dispatch(decrementWorktime());
         },
 
-        incrementBreaktime: (event) => {
+        incrementBreaktime: () => {
             dispatch(incrementBreaktime());;
         },
-        decrementBreaktime: (event) => {
+        decrementBreaktime: () => {
             dispatch(decrementBreaktime());
         },
-        startCountDown: (event) => {
+        startCountDown: () => {
             dispatch(startCountDown());
         },
-        stopCountDown: (event) => {
+        stopCountDown: () => {
             dispatch(stopCountDown());
         },
-        resetCountDown: (event) => {
+        resetCountDown: () => {
             dispatch(resetCountDown());
         },
-        timeForBreak: (event) => {
-            dispatch(timeForBreak());
+        timeForBreak: (data = true) => {
+            dispatch(timeForBreak(data));
         }
     }
 };
