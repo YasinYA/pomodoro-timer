@@ -14,4 +14,4 @@ const WorkTimePeriodControl = ({workTime, increment, decrement}) => {
         </div>
     )
 }
-export default WorkTimePeriodControl
+export default WorkTimePeriodControl;

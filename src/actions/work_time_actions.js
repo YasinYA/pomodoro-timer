@@ -4,13 +4,12 @@ export const DECREMENT_WORK_TIME = 'DECREMENT_WORK_TIME';
 
 export const incrementWorktime = () => {
     return {
-        type: INCREMENT_WORK_TIME,
-    }
-}
+        type: INCREMENT_WORK_TIME
+    };
+};
 
-export const decrementWorktime = (step) => {
+export const decrementWorktime = () => {
     return {
-        type: DECREMENT_WORK_TIME,
-        step: step
-    }
-}
+        type: DECREMENT_WORK_TIME
+    };
+};
