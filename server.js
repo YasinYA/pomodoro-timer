@@ -26,4 +26,4 @@ app.listen(port, function(err) {
     return console.error(err);
   }
   console.log(`Listening at ${dev_path}:${port}/`);
-})
+});

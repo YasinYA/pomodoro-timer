@@ -1,5 +1,4 @@
 @import '~bootstrap/dist/css/bootstrap.css';
-
 $main-background-color: #333;
 $font-color: #00ff99;
 $font-family: san-serif, Verdana, Helvitic, Arial;
@@ -9,167 +8,167 @@ $font-family: san-serif, Verdana, Helvitic, Arial;
 }
 
 .header {
-  color: $font-color;
-  text-align: center;
-  font-family: $font-family;
-  text-shadow: 0 0 8px #000;
+    color: $font-color;
+    text-align: center;
+    font-family: $font-family;
+    text-shadow: 0 0 8px #000;
 }
 
 .wrapper {
-  width: 500px;
-  height: 500px;
-  margin: 50px auto;
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
 }
 
 .increment-controls {
-  display: inline-block;
-  margin: 30px 0 0 110px;
+    display: inline-block;
+    margin: 30px 0 0 110px;
 }
 
 .div {
-  margin-left: 30px;
-  color: #eee;
+    margin-left: 30px;
+    color: #eee;
 }
 
 .section1 {
-  width: 100px;
-  height: 50px;
-  float: left;
-  background: #333;
+    width: 100px;
+    height: 50px;
+    float: left;
+    background: #333;
 }
 
 .breaktime-1 {
-  display: inline-block;
-  margin-left: 15px;
-  margin-top: 15px;
-  font-size: 22px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 22px;
 }
 
 .section2 {
-  width: 100px;
-  height: 50px;
-  float: left;
-  background: #333;
+    width: 100px;
+    height: 50px;
+    float: left;
+    background: #333;
 }
 
 .breaktime {
-  display: inline-block;
-  margin-left: 13px;
-  margin-top: 13px;
-  font-size: 22px;
+    display: inline-block;
+    margin-left: 13px;
+    margin-top: 13px;
+    font-size: 22px;
 }
 
 .inner-div {
-  border: 1px solid #000;
-  height: 50px;
-  width: 25px;
-  border-radius: 4px;
+    border: 1px solid #000;
+    height: 50px;
+    width: 25px;
+    border-radius: 4px;
 }
 
 .inner-1 {
-  float: left;
-  border-radius: 4px;
+    float: left;
+    border-radius: 4px;
 }
 
 .inner-2 {
-  float: right;
-  border-radius: 4px;
+    float: right;
+    border-radius: 4px;
 }
 
 .btn {
-  background: #333;
-  border: 1px solid #00995c;
-  height: 50px;
-  width: 25px;
-  border-radius: 4px;
-  color: #eee;
+    background: #333;
+    border: 1px solid #00995c;
+    height: 50px;
+    width: 25px;
+    border-radius: 4px;
+    color: #eee;
 }
 
 .btn:hover {
-  background: #333;
-  color: #111;
+    background: #333;
+    color: #111;
 }
 
 .timer {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  margin: 10px 0 0 108px;
-  background: #333;
-  border: 1px solid #00995c;
-  box-shadow: 0 0 8px #000;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 10px 0 0 108px;
+    background: #333;
+    border: 1px solid #00995c;
+    box-shadow: 0 0 8px #000;
 }
 
 .heading {
-  text-align: center;
-  margin-top: 25px;
-  color: #eee;
-  font-size: 22px;
-  font-family: san-serif, Verdana, Helvitic, Arial;
+    text-align: center;
+    margin-top: 25px;
+    color: #eee;
+    font-size: 22px;
+    font-family: san-serif, Verdana, Helvitic, Arial;
 }
 
 .btn-start {
-  margin: 40px 0 0 50px;
-  background: #333;
-  color: #eee !important;
-  border: 1px solid #00995c;
+    margin: 40px 0 0 50px;
+    background: #333;
+    color: #eee !important;
+    border: 1px solid #00995c;
 }
 
 .btn-start:hover {
-  background: #333;
-  color: #222 !important;
+    background: #333;
+    color: #222 !important;
 }
 
 .btn-stop {
-  margin-top: 40px;
-  background: #333;
-  color: #eee !important;
-  border: 1px solid #00995c;
+    margin-top: 40px;
+    background: #333;
+    color: #eee !important;
+    border: 1px solid #00995c;
 }
 
 .btn-stop:hover {
-  background: #333;
-  color: #222 !important;
+    background: #333;
+    color: #222 !important;
 }
 
 .btn-reset {
-  margin-left: 104px;
-  margin-top: 10px;
-  background: #333;
-  color: #eee !important;
-  border: 1px solid #00995c;
+    margin-left: 104px;
+    margin-top: 10px;
+    background: #333;
+    color: #eee !important;
+    border: 1px solid #00995c;
 }
 
 .btn-reset:hover {
-  background: #333;
-  color: #222 !important;
+    background: #333;
+    color: #222 !important;
 }
 
-
 .countdown {
-  width: 300px;
-  height: 60px;
-  margin-top: 20px;
+    width: 272px;
+    height: 58px;
+    margin-top: 20px;
+    margin-left: 14px;
 }
 
 .countdown .countdown-time {
-  text-align: center;
-  font-family: san-serif, Verdana, Helvitic, Arial;
+    text-align: center;
+    font-family: san-serif, Verdana, Helvitic, Arial;
 }
 
 .add-class {
-  width: 100px;
-  height: 40px;
-  color: #333;
-  font-family: san-serif, Verdana, Helvitic, Arial;
-  padding: 10px;
+    width: 100px;
+    height: 40px;
+    color: #333;
+    font-family: san-serif, Verdana, Helvitic, Arial;
+    padding: 10px;
 }
 
 .des {
-  color: #00995c;
-  font-family: san-serif, Verdana, Helvitic, Arial;
-  font-size: 22px;
-  text-align: center;
+    color: #00995c;
+    font-family: san-serif, Verdana, Helvitic, Arial;
+    font-size: 22px;
+    text-align: center;
 }
 
 .white-text {
